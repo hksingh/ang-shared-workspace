@@ -2,4 +2,9 @@
  * Public API Surface of shared-lib
  */
 
-export * from './lib/shared-lib';
+//components
+export * from './lib/components/first-component/shared-lib';
+
+
+
+// 

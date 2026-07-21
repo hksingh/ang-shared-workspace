@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharedLibComponent } from './shared-lib';
+import { Support } from './support';
 
-describe('SharedLib', () => {
-  let component: SharedLibComponent;
-  let fixture: ComponentFixture<SharedLibComponent>;
+describe('Support', () => {
+  let component: Support;
+  let fixture: ComponentFixture<Support>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SharedLibComponent],
+      imports: [Support],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(SharedLibComponent);
+    fixture = TestBed.createComponent(Support);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
