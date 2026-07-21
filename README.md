@@ -1,17 +1,6 @@
 # Creating an angular workspace
+
 https://medium.com/@kssaravanan11/setting-up-a-multi-project-angular-workspace-for-code-reusability-3ea8bc390b94
-
-
-
-
-
-
-
-
-
-
-
-
 
 # AngSharedWorkspace
 
