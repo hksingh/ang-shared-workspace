@@ -1,3 +1,18 @@
+# Creating an angular workspace
+https://medium.com/@kssaravanan11/setting-up-a-multi-project-angular-workspace-for-code-reusability-3ea8bc390b94
+
+
+
+
+
+
+
+
+
+
+
+
+
 # AngSharedWorkspace
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
