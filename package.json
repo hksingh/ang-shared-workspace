@@ -11,7 +11,7 @@
     "type-check": "tsc --noEmit",
     "lint": "ng lint",
     "format": "prettier --write .",
-    "format:check": "prettier --list-different \"{apps,libs}/**/*.{ts,md}\" \"!{apps,libs}/**/coverage\"",
+    "format:check": "prettier --list-different .",
     "docs:build": "markdown-include .markdown.json"
   },
   "lint-staged": {
