@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharedLibComponent } from '../../shared-lib';
+import { SharedLibComponent } from './shared-lib';
 
 describe('SharedLib', () => {
   let component: SharedLibComponent;
