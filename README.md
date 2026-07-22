@@ -2,6 +2,30 @@
 
 https://medium.com/@kssaravanan11/setting-up-a-multi-project-angular-workspace-for-code-reusability-3ea8bc390b94
 
+## Setting up In Memory web api module
+1. Install the library : npm install angular-in-memory-web-api
+2. Make sure package.json has the entries with the version number.
+3. Create an api data file which would implements InMemoryDbService
+<code>
+export class AppMockData implements InMemoryDbService {
+    createDb() {
+        const products = ProductData.products;
+        const reviews = ReviewData.reviews;
+        return { products, reviews };
+    }
+}
+</code>
+4. Ensure that is registered as a data provider in app.config.ts
+    <code>
+        export const appConfig: ApplicationConfig = {
+  providers: [provideBrowserGlobalErrorListeners(), provideRouter(routes), 
+      importProvidersFrom(
+        InMemoryWebApiModule.forRoot(AppMockData, {delay: 1000, passThruUnknownUrl: true})
+      )
+  ],
+};
+    </code>
+
 # AngSharedWorkspace
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
