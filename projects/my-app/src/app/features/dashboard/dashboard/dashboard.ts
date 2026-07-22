@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-dashboard', 
@@ -6,4 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './dashboard.scss',
   standalone: false
 })
-export class DashboardComponent {}
+export class DashboardComponent {
+  faCoffee=faCoffee;
+}

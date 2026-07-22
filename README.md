@@ -2,6 +2,12 @@
 
 https://medium.com/@kssaravanan11/setting-up-a-multi-project-angular-workspace-for-code-reusability-3ea8bc390b94
 
+## font awesome
+ npm install @fortawesome/free-solid-svg-icons
+ npm install @fortawesome/angular-fontawesome
+
+
+
 ## Setting up In Memory web api module
 1. Install the library : npm install angular-in-memory-web-api
 2. Make sure package.json has the entries with the version number.
